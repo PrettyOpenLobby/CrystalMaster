@@ -22,7 +22,7 @@ jobs:
           path: crystalmaster
       - uses: actions/checkout@v4
         with:
-          repository: PSChuze/OpenLobby
+          repository: PrettyOpenLobby/OpenLobby
           path: openlobby
       - uses: actions/setup-python@v5
         with:
