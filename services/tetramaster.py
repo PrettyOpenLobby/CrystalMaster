@@ -17721,7 +17721,7 @@ def _selftest_gameml_format():
         # PIPE-joined hex columns, member order.
         if b"/MLID=AB12CD31DC3F63B6|AB12CD56EB0F5932" not in body:
             _say("FAIL: /MLID= must be pipe-joined hex POL-IDs: %r" % body); ok = False
-        # hex of the two fixture names: 436173 and 4C6170746F705465737432.
+        # hex of the two fixture names: 466F78 and 4C6170746F705465737432.
         if b"/MLNN=466F78|4C6170746F705465737432" not in body:
             _say("FAIL: /MLNN= must be pipe-joined UPPERCASE hex names: %r"
                  % body); ok = False
